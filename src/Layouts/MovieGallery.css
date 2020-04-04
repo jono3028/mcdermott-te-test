@@ -1,0 +1,13 @@
+.moviegallery {
+  max-width: 1270px;
+}
+
+.moviegallery_cardcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.moviegallery_addbutton {
+  float: right
+}
