@@ -36,7 +36,7 @@ export const MovieCard = props => {
         <Card.Description>{leadActorString}</Card.Description>
       </Card.Content>
       <Card.Content extra>
-        <a onClick={() => setDisplaymodal(true)}>
+        <a onClick={() => setDisplaymodal(true)} href='void'> 
           <Icon name='glass martini' />
           <span>More...</span>
         </a>
